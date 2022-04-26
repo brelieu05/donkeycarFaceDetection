@@ -1,0 +1,44 @@
+Mono path[0] = 'C:/Users/LieuBrendan1932/Desktop/DonkeySimWin/DonkeySimWin/donkey_sim_Data/Managed'
+Mono config path = 'C:/Users/LieuBrendan1932/Desktop/DonkeySimWin/DonkeySimWin/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Users/LieuBrendan1932/Desktop/DonkeySimWin/DonkeySimWin/donkey_sim_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     8072 MB
+    Driver:   27.20.100.9664
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.504 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.116800 ms
+SDSandbox Server starting.
+
+SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) [0x00043] in <3df7f9ca50404bbc8bd4e7b954e70293>:0 
+  at tk.TcpServer.Bind (System.String ip, System.Int32 port) [0x00022] in <75acdb993dd548269dfde03c8b031bb2>:0 
+  at tk.TcpServer.Run (System.String ip, System.Int32 port) [0x00000] in <75acdb993dd548269dfde03c8b031bb2>:0 
+  at SandboxServer.Start () [0x0005e] in <75acdb993dd548269dfde03c8b031bb2>:0 
+
+SDSandbox Server starting.
+
+SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) [0x00043] in <3df7f9ca50404bbc8bd4e7b954e70293>:0 
+  at tk.TcpServer.Bind (System.String ip, System.Int32 port) [0x00022] in <75acdb993dd548269dfde03c8b031bb2>:0 
+  at tk.TcpServer.Run (System.String ip, System.Int32 port) [0x00000] in <75acdb993dd548269dfde03c8b031bb2>:0 
+  at SandboxServer.Start () [0x0005e] in <75acdb993dd548269dfde03c8b031bb2>:0 
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 7c90 -> priority: 1 
+  Thread -> id: 3da0 -> priority: 1 
+  Thread -> id: 6834 -> priority: 1 
+  Thread -> id: 460c -> priority: 1 
+Server stopped.
+
+Server stopped.
+
